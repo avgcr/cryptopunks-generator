@@ -1,0 +1,18 @@
+import logo from './logo.svg'
+import './App.css'
+
+function App() {
+	return (
+		<div className='App'>
+			<iframe
+				width='560'
+				height='315'
+				src='https://www.youtube.com/embed/dQw4w9WgXcQ'
+				frameborder='0'
+				allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+				allowfullscreen></iframe>
+		</div>
+	)
+}
+
+export default App
